@@ -3,6 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 
+###
 
 # full csv
 df = pd.read_csv("C:/Users/andre/Documents/Strive_repository/IMDB_challenge/data_imdb_action_new.csv")
