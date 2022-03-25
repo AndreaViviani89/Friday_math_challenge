@@ -64,6 +64,23 @@ st.pyplot()
 
 
 
+
+height = 0
+for i in df.Height:
+    height += i
+mean_height = height/len(df.Height)
+print(mean_height)
+
+weight = 0
+for j in df.Weight:
+    weight += j
+mean_weight = weight/len(df.Weight)
+print(mean_weight)
+
+
+
+
+
 # st.bar_chart(df['Gender'].groupby('Index').value_counts())
 
 
